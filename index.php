@@ -14,6 +14,8 @@ $movie2 = new Movie(_titolo: "The Shark", _anno: 2022, _lingua: "Inglese");
 echo ('Titolo del film:' . $movie2->titolo . ' ' . 'anno di uscita:' . $movie2->anno . ' ' . 'lingua del film:' . $movie2->lingua);
 echo '<br>';
 
+echo $movie2->getDescription();
+
 
 
 // recupero file books.php

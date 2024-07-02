@@ -13,4 +13,5 @@ class Books
         $this->numPag = $_numPag;
         $this->colore = $_colore;
     }
+
 }

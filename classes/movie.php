@@ -18,6 +18,11 @@ class Movie
         $this->anno = $_anno;      // INIZIALIZZA la variabile anno
         $this->lingua = $_lingua;  // INIZIALIZZA la variabile lingua
     }
+
+    // funzione che ritorna la descrizione completa del film
+    public function getDescription() {
+        return "Titolo: $this->titolo, Anno: $this->anno, Lingua: $this->lingua";
+    }
 }
 
 ?>
